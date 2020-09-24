@@ -1,0 +1,44 @@
+body{
+  background-color: thistle;
+}
+.container{
+  display: flex;
+
+}
+
+.timerContainer {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    margin: auto;
+    
+  }
+  .timer, .reset {
+    width:300px;
+    padding: 20px 0;
+    font-size: 24px;
+    text-align:center;
+    color: #fff;
+    background: #A90000;
+    cursor: pointer
+  }
+  .reset {
+    background: #550000;
+    color: white;
+    /* width:20%; */
+    border-left: 1px solid #990000;
+  }
+  .reset:hover {
+    background: #CC0000;
+  }
+  .lighter {
+    background: #CC0000
+  }
+ 
+  @media screen and (max-width: 600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        
+ 
+    }
+  }
